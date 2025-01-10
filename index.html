@@ -1,0 +1,103 @@
+<html lang="es">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9S89FJCFWY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-9S89FJCFWY');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px 20px;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+        }
+
+        header a {
+            text-decoration: none;
+            color: #fff;
+            margin-right: 15px;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 10px;
+            padding: 100px 20px 20px;
+        }
+
+        .project {
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .project:hover img {
+            transform: scale(1.1);
+        }
+
+        .project-title {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 5px 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Proyectos</a>
+        <a href="#">Contacto</a>
+    </header>
+
+    <main>
+        <div class="projects">
+            <div class="project">
+                <img src="https://via.placeholder.com/800x600" alt="Project 1">
+                <div class="project-title">Project 1</div>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/800x600" alt="Project 2">
+                <div class="project-title">Project 2</div>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/800x600" alt="Project 3">
+                <div class="project-title">Project 3</div>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/800x600" alt="Project 4">
+                <div class="project-title">Project 4</div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
