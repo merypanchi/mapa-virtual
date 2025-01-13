@@ -6,7 +6,7 @@
     <title>El clima en la cuerda floja: imaginando extremos futuros</title>
     <style>
         body {
-            font-family: Hevetica;
+            font-family: Helvetica;
             background-color: #f4f4f4;
             text-align: center;
             padding: 50px;
